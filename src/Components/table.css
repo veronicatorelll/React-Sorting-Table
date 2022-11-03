@@ -1,0 +1,138 @@
+body {
+background-color: #1a2c3c;
+margin: auto;
+width: 90%;
+}
+
+table {
+    font-family: Roboto, system-ui, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-left: 2px;
+    table-layout: fixed;
+  }
+
+
+
+
+  table td, table th {
+    border: 1px solid rgba(69, 69, 128, 0.475);
+    padding: 13px;
+    color: rgb(195, 192, 192);
+  }
+  
+  
+  table tr:nth-child{
+  background-color: #9a989e78;
+  }
+  
+  table tr:hover  {
+   background-color:#497ea1c1;
+   cursor: pointer;
+  
+  }
+.column-sorting {
+position: fixed;
+}
+  
+  table th, td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    color: rgb(195, 192, 192);
+    border: none;
+    min-width: 0;
+  }
+
+  .search-input{
+    background-color:#505b7dc1;
+    height: 30px;
+    width: 170px;
+    margin-top: 2%;
+    margin-bottom: 50px;
+    margin-left: 10%;
+    padding-top: 3px;
+    border: none;
+    border-radius: 3px
+  }
+
+  ::placeholder{
+    color: rgb(195, 192, 192);
+    font-size: 17px;
+    padding-left: 10px;
+  }
+
+  .page {
+    color: rgb(195, 192, 192);
+    margin-left: 10px;
+  }
+
+  .gotopage {
+    color: rgb(195, 192, 192);
+    margin-left: 20px;
+  }
+
+  .gotopage-input{
+    margin-left: 10px;
+    height: 22px;
+    background-color:#505b7dc1;
+    border: none;
+    border-radius: 3px;
+    color: rgb(195, 192, 192);
+  }
+
+
+  .select-page{
+    margin-left: 10px;
+    height: 22px;
+    background-color:#505b7dc1;
+    border:none;
+    border-radius: 3px;
+    color: rgb(195, 192, 192);
+    font-size: 15px;
+  }
+
+  
+
+  .next {
+    margin-left: 10px;
+    height: 22px;
+    background-color:#505b7dc1;
+    border:none;
+    border-radius: 3px;  
+    color: rgb(195, 192, 192);
+    font-size: 15px;
+  }
+
+  .last-page{
+    margin-left: 10px;
+    height: 22px;
+    background-color:#505b7dc1;
+    border:none;
+    border-radius: 3px;
+    color: rgb(195, 192, 192);
+    font-size: 15px;
+  }
+
+  .previous {
+    margin-left: 10px;
+    height: 22px;
+    background-color:#505b7dc1;
+    border:none;
+    border-radius: 3px;
+    color: rgb(195, 192, 192);
+    font-size: 15px;
+  }
+
+  .first-page{
+    margin-left: 159px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    height: 22px;
+    background-color:#505b7dc1;
+    border:none;
+    border-radius: 3px;
+    color: rgb(195, 192, 192);
+    font-size: 15px;
+  }
